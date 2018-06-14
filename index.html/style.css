@@ -1,0 +1,123 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+footer {
+  background-color: #6d6a63;
+  width:100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+}
+
+main {
+  display: flex;
+  justify-content:;
+  flex-direction: row;
+}
+.play-top-space {
+  background-color: #c4c1ba;
+  width: 100%;
+  height: 100px;
+}
+
+.top-space {
+  background-color: #c4c1ba;
+  width:100%;
+  height: 60px;
+  border-bottom: 2px solid black;
+}
+ .splash-button {
+   background-color: #33322f;
+   color: lightgrey;
+   border-radius: 10px;
+   font-size: 1.5em;
+   width: 11em;
+   height: 2em;
+ }
+
+ .copyright {
+   padding-bottom: 5px;
+   padding-top: 15px;
+   padding-left: 40px;
+   color: lightgrey;
+   font-size: 25px;
+ }
+
+ .left-side {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #f4f6f7;
+   height: 85vh;
+   width: 50vw;
+ }
+
+.tracks-side {
+  display: flex;
+}
+
+.album1, .album2, .album3 {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  flex-grow: 1;
+}
+
+.album-list {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+}
+
+.album-selection {
+  background-color: pink;
+  width: 100%;
+  height: 100px;
+}
+
+.bin {
+  background-color: lightgrey;
+  margin: 25px 0px;
+  width: 70%;
+  height: 180px;
+  border: 2px solid black;
+  position: relative;
+  left: 14%;
+}
+
+.play-buttons{
+  background-color: black;
+  color: lightgrey;
+  font-size: 25px;
+  padding: 5px 50px;
+  margin-right: 20px;
+  border-radius: 7px;
+  position: relative;
+  left:16%;
+}
+ #railroad-img {
+   opacity: .19;
+   height: 85vh;
+   width: 50vw;
+ }
+
+#track-bin {
+  color: purple;
+  font-size: 70px;
+}
+
+#p-top-space {
+  font-size: 27px;
+  color: white;
+  position: relative;
+  top: 60%;
+  left:10%;
+}
