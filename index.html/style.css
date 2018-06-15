@@ -85,7 +85,8 @@ main {
 
 .bin {
   background-color: lightgrey;
-  margin: 25px 0px;
+  margin: 25px;
+  margin-right: 0px;
   width: 70%;
   height: 180px;
   border: 2px solid black;
